@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kintai · SalesApp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css?v=mm37"/>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="data/companies.js?v=q4brk43"></script>
+<script src="data/market.js?v=q4brk43"></script>
+<script src="data/scoring.js?v=q4brk43"></script>
+<script src="data/calificacion.js?v=q4brk43"></script>
+<script src="data/playbook.js?v=q4brk43"></script>
+<script src="data/industries.js?v=q4brk43"></script>
+<script type="text/babel" src="components/Calificacion.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/CompanyHead.jsx?v=q4brk43"></script>
+<script src="data/callscript.js?v=q4brk43"></script>
+<script src="data/prospecting.js?v=q4brk43"></script>
+<script src="data/team.js?v=q4brk43"></script>
+<script src="data/discovery.js?v=q4brk43"></script>
+<script src="data/collateral.js?v=q4brk43"></script>
+<script src="data/seed.js?v=q4brk43"></script>
+<script src="data/portfolio.js?v=q4brk43"></script>
+<script src="data/gtm.js?v=q4brk43"></script>
+<script src="data/contacts.js?v=q4brk43"></script>
+<script src="data/hubspot.js?v=q4brk43"></script>
+<script src="data/brokers-max.js?v=q4brk44"></script>
+<script src="data/brokers-ae.js?v=q4brk44"></script>
+<script src="data/pipeline.js?v=q4brk44"></script>
+<script src="data/cohort.js?v=q4brk44"></script>
+<script src="data/t2m.js?v=q4brk45"></script>
+<script src="data/riesgo.js?v=q4brk46"></script>
+<script src="data/cartera.js?v=q4brk47"></script>
+<script src="data/brokers.js?v=q4brk43"></script>
+<script src="data/outbound.js?v=q4brk43"></script>
+<script src="data/aeperf.js?v=q4ae50"></script>
+<script src="data/aeq4.js?v=q4ae89"></script>
+<script src="data/aeact.js?v=q4ae66"></script>
+<script src="data/midmarket.js?v=mm40"></script>
+<script src="data/aereal.js?v=q4ae88"></script>
+<script src="data/aedash.js?v=q4ae96"></script>
+<script src="data/skills.js?v=q4ae59"></script>
+<script src="data/skillmap.js?v=q4ae59"></script>
+<script src="data/funnel.js?v=q4brk43"></script>
+<script src="data/optimize.js?v=q4brk43"></script>
+<script src="data/cnae.js?v=q4brk43"></script>
+<script src="data/campaigns.js?v=q4brk43"></script>
+<script type="text/babel" src="components/Research.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/CampMonitor.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Funnel.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/IndustryBlock.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/PillarCard.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Script.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/CallFlow.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Collateral.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Discovery.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Dashboard.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/SprintPrep.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/SprintRun.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Campaigns.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Market.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/GtmNow.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Portfolio.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/MasterPlan.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/BpPlan.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Pricing.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Som.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Gtm.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Plan2027.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/Contacts.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/BkCohorts.jsx?v=q4brk44"></script>
+<script type="text/babel" src="components/T2MQuarters.jsx?v=q4brk45"></script>
+<script type="text/babel" src="components/RiesgoEmisor.jsx?v=q4brk46"></script>
+<script type="text/babel" src="components/CarteraCompartida.jsx?v=q4brk47"></script>
+<script type="text/babel" src="components/Brokers.jsx?v=q4brk44"></script>
+<script type="text/babel" src="components/Outbound.jsx?v=q4brk43"></script>
+<script type="text/babel" src="components/AePerfLegacy.jsx?v=q4ae60"></script>
+<script type="text/babel" src="components/MidMarket.jsx?v=mm40"></script>
+<script type="text/babel" src="components/AeDashCalidad.jsx?v=q4ae107"></script>
+<script type="text/babel" src="components/AeDashActividad.jsx?v=q4ae106"></script>
+<script type="text/babel" src="components/AeDashRigor.jsx?v=q4ae100"></script>
+<script type="text/babel" src="components/AePerf.jsx?v=q4ae105"></script>
+<script type="text/babel" src="components/SkillMap.jsx?v=q4ae59"></script>
+<script type="text/babel" src="components/Skills.jsx?v=q4ae59"></script>
+<script type="text/babel" src="components/Optimize.jsx?v=q4brk43"></script>
+<script type="text/babel" src="app-sales.jsx?v=mm1q4ae59"></script>
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#0B1220"/><g transform="translate(120,90)"><rect width="160" height="120" rx="10" fill="#FBFAF7"/><rect x="18" y="20" width="58" height="8" rx="4" fill="#C8A24C"/><rect x="18" y="40" width="124" height="6" rx="3" fill="#E6E2D6"/><rect x="18" y="54" width="96" height="6" rx="3" fill="#E6E2D6"/><rect x="18" y="74" width="34" height="26" rx="4" fill="#4054A8"/><rect x="58" y="74" width="34" height="26" rx="4" fill="#2E7D5B"/><rect x="98" y="74" width="34" height="26" rx="4" fill="#8E6E2A"/></g></svg>
+</template>
+</body>
+</html>
